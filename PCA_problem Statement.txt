@@ -1,0 +1,17 @@
+	Perform Principal component analysis and perform clustering using first 
+3 principal component scores (both heirarchial and k mean clustering(scree plot or elbow curve) and obtain 
+optimum number of clusters and check whether we have obtained same number of clusters with the original data 
+(class column we have ignored at the begining who shows it has 3 clusters)df
+
+Answer : A. Please find attached code for PCA and clustering for given database.
+
+B. below are the differece between givne data cluster and custer calculated by K -means clusterning.
+
+Sr.	Type	Alcohol	Malic	Ash	Alcalinity	Magnesium	Phenols	Flavanoids	Nonflavanoids	Proanthocyanins	Color	Hue	Dilution Proline      	Cluster
+61	2	12.64	1.36	2.02	16.8		100		2.02	1.41		0.53		0.62		5.75	0.98	1.59	450		0
+73	2	12.99	1.67	2.6	30		139		3.3	2.89		0.21		1.96		3.35	1.31	3.5	985		1
+83	2	13.05	3.86	2.32	22.5		85		1.65	1.59		0.61		1.62		4.8	0.84	2.01	515		0
+95	2	12.47	1.52	2.2	19		162		2.5	2.27		0.32		3.28		2.6	1.16	2.63	937		1
+98	2	12.37	1.07	2.1	18.5		88		3.52	3.75		0.24		1.95		4.5	1.04	2.77	660		1
+118	2	12.77	3.43	1.98	16		80		1.63	1.25		0.43		0.83		3.4	0.7	2.12	372		0
+121	2	11.56	2.05	3.23	28.5		119		3.18	5.08		0.47		1.87		6	0.93	3.69	465		1
