@@ -1,16 +1,9 @@
 Perform Clustering for the crime data and identify the number of clusters formed and draw inferences.
 
 
-Data Description:
-Murder -- Muder rates in different places of United States
-Assualt- Assualt rate in different places of United States
-UrbanPop - urban population in different places of United States
-Rape - Rape rate in different places of United States
-
 
 Answer ==  
 
- Below datapoints will be under same cluster while others are outlier by using DBSCAN clusterning method, code attached for clustering.
 
 clustering done as per below dendrogram : python code attached
 ========================
